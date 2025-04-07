@@ -1,2 +1,38 @@
-# emotion-tracking-filters
-Repository for a poster study on statistical modeling of emotion scores using regression-based filters.
+# Emotion Tracking Filters
+
+This repository contains reproducible experiments for comparing different statistical filtering models in the context of short-term emotion score tracking.
+
+## Overview
+
+This project evaluates and compares three methods for tracking emotion scores over time:
+
+- Kalman Filter
+- Bayesian Mean Update
+- Moving Average Filter
+
+All models are tested on 7-day emotional sequences that simulate mood recovery, starting from low (depressive) values and stabilizing into normal range.
+
+## Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python experiment.py
+```
+
+## Output
+
+Generates a graph under `figures/emotion-tracking-example.png` and prints:
+
+- Mean Squared Error (MSE)
+- Pearson Correlation Coefficient (r)
+
+## Citation
+
+This work is part of a poster project on statistical modeling of emotion scores.
