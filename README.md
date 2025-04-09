@@ -36,3 +36,7 @@ Generates a graph under `figures/emotion-tracking-example.png` and prints:
 ## Citation
 
 This work is part of a poster project on statistical modeling of emotion scores.
+
+## Acknowledgment
+
+This research was supported by the MSIT(Ministry of Science and ICT), Korea, under the National Program for Excellence & Communication in SW(2021-0-01409) supervised by the IITP(Institute for Information & Communications Technology Planning & Evaluation).
